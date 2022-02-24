@@ -17,7 +17,7 @@ export const FindIndex: FC = () => {
   const handleFormSubmit = (event: FormEvent) => {
    event.preventDefault();
 
-   const array = Array.from(Array(+input).keys()).map(value => value + 1);
+   const array = [...(Array(+input + 1).keys())];
 
    setPrimes(array.filter(isPrime));
 
