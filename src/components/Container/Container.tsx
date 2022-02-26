@@ -1,8 +1,8 @@
 import {FC} from 'react';
-import {FindIndex} from '../Array/FindIndex/FindIndex';
+import {ForEach} from '../Array/ForEach/ForEach';
 
 export const Container: FC = () => {
   return (
-    <FindIndex />
+    <ForEach />
   );
 };
