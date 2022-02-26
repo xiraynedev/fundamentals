@@ -1,8 +1,8 @@
 import {FC} from 'react';
-import {ForEach} from '../Array/ForEach/ForEach';
+import {From} from '../Array/From/From';
 
 export const Container: FC = () => {
   return (
-    <ForEach />
+    <From />
   );
 };
