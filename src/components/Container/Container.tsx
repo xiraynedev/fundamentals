@@ -1,8 +1,8 @@
 import {FC} from 'react';
-import {Pop} from '../Array/Pop/Pop';
+import {Push} from '../Array/Push/Push';
 
 export const Container: FC = () => {
   return (
-    <Pop />
+    <Push />
   );
 };
