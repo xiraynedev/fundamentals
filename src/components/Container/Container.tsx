@@ -1,8 +1,8 @@
 import {FC} from 'react';
-import {Join} from '../Array/Join/Join';
+import {Keys} from '../Array/Keys/Keys';
 
 export const Container: FC = () => {
   return (
-    <Join />
+    <Keys />
   );
 };
