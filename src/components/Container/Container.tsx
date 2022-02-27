@@ -1,8 +1,8 @@
 import {FC} from 'react';
-import {Reduce} from '../Array/Reduce/Reduce';
+import {Reverse} from '../Array/Reverse/Reverse';
 
 export const Container: FC = () => {
   return (
-    <Reduce />
+    <Reverse />
   );
 };
