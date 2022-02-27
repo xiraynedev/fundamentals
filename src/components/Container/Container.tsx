@@ -1,8 +1,8 @@
 import {FC} from 'react';
-import {Keys} from '../Array/Keys/Keys';
+import {LastIndexOf} from '../Array/LastIndexOf/LastIndexOf';
 
 export const Container: FC = () => {
   return (
-    <Keys />
+    <LastIndexOf />
   );
 };
