@@ -1,8 +1,8 @@
 import {FC} from 'react';
-import {LastIndexOf} from '../Array/LastIndexOf/LastIndexOf';
+import {IsArray} from '../Array/IsArray/IsArray';
 
 export const Container: FC = () => {
   return (
-    <LastIndexOf />
+    <IsArray />
   );
 };

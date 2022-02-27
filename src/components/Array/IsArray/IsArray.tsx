@@ -2,23 +2,20 @@ import {ChangeEvent, FC, useState} from 'react';
 
 export const IsArray: FC = () => {
   const [userInput, setUserInput] = useState('');
-  const [isArray, setIsArray] = useState('');
-  const [isNotArray, setIsNotArray] = useState('');
+  const [arrayMessage, setArrayMessage] = useState('');
 
   const handleChange = (event: ChangeEvent<HTMLInputElement>) => {
     setUserInput(event.currentTarget.value);
   };
 
   const handleClick = () => {
-    setIsArray('');
-    setIsNotArray('');
 
     if (userInput.slice(0, 1) === '[' && userInput.slice(-1) === ']') {
-      setIsArray('The value you entered is an array.');
+      setArrayMessage('The value you entered is an array.');
       return;
     }
 
-    setIsNotArray('The value you entered is not an array.')
+    setArrayMessage('The value you entered is not an array.')
   };
 
   return (
@@ -40,10 +37,7 @@ export const IsArray: FC = () => {
         >Test for Array
         </button>
         {
-          isArray && <p className="mt-8 tracking-wider font-bold text-emerald-900">{isArray}</p>
-        }
-        {
-          isNotArray && <p className='mt-8 tracking-wider font-bold text-emerald-900'>{isNotArray}</p>
+          arrayMessage && <p className="mt-8 tracking-wider font-bold text-emerald-900">{arrayMessage}</p>
         }
       </div>
     </div>
