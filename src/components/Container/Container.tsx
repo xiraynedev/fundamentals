@@ -1,8 +1,8 @@
 import {FC} from 'react';
-import {From} from '../Array/From/From';
+import {Includes} from '../Array/Includes/Includes';
 
 export const Container: FC = () => {
   return (
-    <From />
+    <Includes />
   );
 };
