@@ -1,8 +1,8 @@
 import {FC} from 'react';
-import {Push} from '../Array/Push/Push';
+import {Reduce} from '../Array/Reduce/Reduce';
 
 export const Container: FC = () => {
   return (
-    <Push />
+    <Reduce />
   );
 };
