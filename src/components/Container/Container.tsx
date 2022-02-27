@@ -1,8 +1,8 @@
 import {FC} from 'react';
-import {IsArray} from '../Array/IsArray/IsArray';
+import {Join} from '../Array/Join/Join';
 
 export const Container: FC = () => {
   return (
-    <IsArray />
+    <Join />
   );
 };
