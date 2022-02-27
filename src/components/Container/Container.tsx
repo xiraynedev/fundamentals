@@ -1,8 +1,8 @@
 import {FC} from 'react';
-import {IsArray} from '../Array/IsArray/IsArray';
+import {Pop} from '../Array/Pop/Pop';
 
 export const Container: FC = () => {
   return (
-    <IsArray />
+    <Pop />
   );
 };
