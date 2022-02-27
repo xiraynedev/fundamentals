@@ -27,6 +27,7 @@ export const Push: FC = () => {
                  className="border p-3 mt-6 outline-blue-200"
           />
         </form>
+        <p className='mt-8 font-bold tracking-wider text-2xl text-red-900'>The length of the array is {animals.length}</p>
       </div>
     </>
   );
