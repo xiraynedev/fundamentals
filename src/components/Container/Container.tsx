@@ -1,8 +1,8 @@
 import {FC} from 'react';
-import {Reverse} from '../Array/Reverse/Reverse';
+import {Shift} from '../Array/Shift/Shift';
 
 export const Container: FC = () => {
   return (
-    <Reverse />
+    <Shift />
   );
 };
