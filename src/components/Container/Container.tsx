@@ -1,8 +1,8 @@
 import {FC} from 'react';
-import {Slice} from '../Array/Slice/Slice';
+import {Sort} from '../Array/Sort/Sort';
 
 export const Container: FC = () => {
   return (
-    <Slice />
+    <Sort />
   );
 };
