@@ -1,3 +1,3 @@
-# js-fundamentals
+# fundamentals
 
-A demo project for brushing up on JavaScript fundamentals.
+A demo project for brushing up on programming fundamentals.
