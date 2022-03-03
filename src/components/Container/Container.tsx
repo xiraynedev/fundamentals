@@ -1,8 +1,8 @@
 import {FC} from 'react';
-import {Shift} from '../Array/Shift/Shift';
+import {Slice} from '../Array/Slice/Slice';
 
 export const Container: FC = () => {
   return (
-    <Shift />
+    <Slice />
   );
 };
