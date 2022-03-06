@@ -1,8 +1,8 @@
 import {FC} from 'react';
-import {Unshift} from '../Array/Unshift/Unshift';
+import {Values} from '../Array/Values/Values';
 
 export const Container: FC = () => {
   return (
-    <Unshift />
+    <Values />
   );
 };
