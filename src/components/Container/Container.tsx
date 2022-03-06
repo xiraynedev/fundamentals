@@ -1,8 +1,8 @@
-import {FC} from 'react';
-import {Splice} from '../Array/Splice/Splice';
+import {FC, useState} from 'react';
+import {ToLocaleString} from '../Array/ToLocaleString/ToLocaleString';
 
 export const Container: FC = () => {
   return (
-    <Splice />
+    <ToLocaleString />
   );
 };
