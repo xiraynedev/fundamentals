@@ -1,8 +1,8 @@
 import {FC} from 'react';
-import {DefineProperties} from '../Object/DefineProperties/DefineProperties';
+import {Entries} from '../Object/Entries/Entries';
 
 export const Container: FC = () => {
   return (
-    <DefineProperties />
+    <Entries />
   );
 };
