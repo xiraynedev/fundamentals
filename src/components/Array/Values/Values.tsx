@@ -49,13 +49,16 @@ export const Values: FC = () => {
                 onClick={handleNextClick}
                 className="border shadow-2xl p-3 mt-8 text-cyan-900 font-bold">Retrieve Next Value
               </button>
-              {
-                !isDone
-                  ? <p className="mt-8 text-2xl text-cyan-900">{values.join(', ')}</p>
-                  : <p className="mt-8 text-2xl text-cyan-900">
-                    The final values are [{values.join(',')}]
-                  </p>
-              }
+              <div className="mt-8 text-2xl text-cyan-900">
+                {
+                  !isDone
+                    ? <p>{values.join(', ')}</p>
+                    : <p>
+                      The final values are {values.join(', ')
+                      .replace(`${values.at(-2)},`, `and ${values.at(-2)}.`)}
+                    </p>
+                }
+              </div>
             </div>
           )
         }
