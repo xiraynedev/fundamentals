@@ -1,8 +1,8 @@
 import {FC} from 'react';
-import {Freeze} from '../Object/Freeze/Freeze';
+import {FromEntries} from '../Object/FromEntries/FromEntries';
 
 export const Container: FC = () => {
   return (
-    <Freeze />
+    <FromEntries />
   );
 };
