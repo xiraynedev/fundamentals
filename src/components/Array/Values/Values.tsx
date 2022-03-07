@@ -3,21 +3,28 @@ import {FC, useState} from 'react';
 
 export const Values: FC = () => {
   const [array] = useState(['a', 'b', 'c']);
-  const [isIterator, setIsIterator] = useState(false);
   const [iterator, setIterator] = useState<IterableIterator<string>>();
   const [values, setValues] = useState<string[]>([]);
+  const [isDone, setIsDone] = useState(false);
 
-  const handleClick = () => {
+  const handleCreateIterator = () => {
     setIterator(array.values());
-    setIsIterator(true);
   };
 
   const handleNextClick = () => {
+    if (isDone) {
+      return;
+    }
+
     const value = iterator?.next();
 
     setValues(prevState => {
       return [...prevState, value?.value];
     });
+
+    if (value?.done) {
+      setIsDone(true);
+    }
   };
 
   return (
@@ -27,12 +34,12 @@ export const Values: FC = () => {
           {array.join(', ')}
         </p>
         <button
-          onClick={handleClick}
+          onClick={handleCreateIterator}
           className="border shadow-2xl p-3 mt-8 text-cyan-900 font-bold tracking-wider"
         >Create Iterator
         </button>
         {
-          isIterator && (
+          iterator && (
             <div className="flex flex-col w-11/12 mx-auto items-center">
               <p className="mt-8 mx-auto text-2xl text-cyan-900">Iterator has been created. Click the button below to
                 retrieve
@@ -43,7 +50,11 @@ export const Values: FC = () => {
                 className="border shadow-2xl p-3 mt-8 text-cyan-900 font-bold">Retrieve Next Value
               </button>
               {
-                values && <p className="mt-8 text-2xl text-cyan-900">{values.join(', ')}</p>
+                !isDone
+                  ? <p className="mt-8 text-2xl text-cyan-900">{values.join(', ')}</p>
+                  : <p className="mt-8 text-2xl text-cyan-900">
+                    The final values are [{values.join(',')}]
+                  </p>
               }
             </div>
           )
