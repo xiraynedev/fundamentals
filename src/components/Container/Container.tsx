@@ -1,8 +1,8 @@
 import {FC} from 'react';
-import {Values} from '../Array/Values/Values';
+import {Assign} from '../Object/Assign/Assign';
 
 export const Container: FC = () => {
   return (
-    <Values />
+    <Assign />
   );
 };
