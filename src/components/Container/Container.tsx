@@ -1,8 +1,8 @@
 import {FC} from 'react';
-import {Assign} from '../Object/Assign/Assign';
+import {Create} from '../Object/Create/Create';
 
 export const Container: FC = () => {
   return (
-    <Assign />
+    <Create />
   );
 };
