@@ -2,7 +2,7 @@ import {FC, useState} from 'react';
 
 
 export const Values: FC = () => {
-  const [array, setArray] = useState(['a', 'b', 'c']);
+  const [array] = useState(['a', 'b', 'c']);
   const [isIterator, setIsIterator] = useState(false);
   const [iterator, setIterator] = useState<IterableIterator<string>>();
   const [values, setValues] = useState<string[]>([]);
@@ -13,13 +13,11 @@ export const Values: FC = () => {
   };
 
   const handleNextClick = () => {
-
     const value = iterator?.next();
 
     setValues(prevState => {
-      return [...prevState, value?.value]
+      return [...prevState, value?.value];
     });
-
   };
 
   return (
@@ -35,7 +33,7 @@ export const Values: FC = () => {
         </button>
         {
           isIterator && (
-            <div className='flex flex-col w-11/12 mx-auto items-center'>
+            <div className="flex flex-col w-11/12 mx-auto items-center">
               <p className="mt-8 mx-auto text-2xl text-cyan-900">Iterator has been created. Click the button below to
                 retrieve
                 the values in sequence.
@@ -45,7 +43,7 @@ export const Values: FC = () => {
                 className="border shadow-2xl p-3 mt-8 text-cyan-900 font-bold">Retrieve Next Value
               </button>
               {
-                values && <p className='mt-8 text-2xl text-cyan-900'>{values.join(', ')}</p>
+                values && <p className="mt-8 text-2xl text-cyan-900">{values.join(', ')}</p>
               }
             </div>
           )
