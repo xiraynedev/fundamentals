@@ -13,7 +13,13 @@ export const Values: FC = () => {
   };
 
   const handleNextClick = () => {
-    setValues(prevState => [...prevState, iterator?.next().value]);
+
+    const value = iterator?.next();
+
+    setValues(prevState => {
+      return [...prevState, value?.value]
+    });
+
   };
 
   return (
@@ -29,8 +35,8 @@ export const Values: FC = () => {
         </button>
         {
           isIterator && (
-            <>
-              <p className="w-11/12 mt-8 text-2xl text-cyan-900">Iterator has been created. Click the button below to
+            <div className='flex flex-col w-11/12 mx-auto items-center'>
+              <p className="mt-8 mx-auto text-2xl text-cyan-900">Iterator has been created. Click the button below to
                 retrieve
                 the values in sequence.
               </p>
@@ -39,9 +45,9 @@ export const Values: FC = () => {
                 className="border shadow-2xl p-3 mt-8 text-cyan-900 font-bold">Retrieve Next Value
               </button>
               {
-                values && <p className='w-11/12 mt-8 text-2xl text-cyan-900'>{values.join(', ')}</p>
+                values && <p className='mt-8 text-2xl text-cyan-900'>{values.join(', ')}</p>
               }
-            </>
+            </div>
           )
         }
       </div>
