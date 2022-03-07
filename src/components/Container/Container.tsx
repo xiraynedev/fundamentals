@@ -1,8 +1,8 @@
 import {FC} from 'react';
-import {Create} from '../Object/Create/Create';
+import {DefineProperties} from '../Object/DefineProperties/DefineProperties';
 
 export const Container: FC = () => {
   return (
-    <Create />
+    <DefineProperties />
   );
 };
