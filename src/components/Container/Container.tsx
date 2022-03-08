@@ -1,8 +1,8 @@
 import {FC} from 'react';
-import {GetPrototypeOf} from '../Object/GetPrototypeOf/GetPrototypeOf';
+import {Is} from '../Object/Is/Is';
 
 export const Container: FC = () => {
   return (
-    <GetPrototypeOf />
+    <Is />
   );
 };
