@@ -1,8 +1,8 @@
 import {FC} from 'react';
-import {GetOwnPropertyNames} from '../Object/GetOwnPropertyNames/GetOwnPropertyNames';
+import {GetPrototypeOf} from '../Object/GetPrototypeOf/GetPrototypeOf';
 
 export const Container: FC = () => {
   return (
-    <GetOwnPropertyNames />
+    <GetPrototypeOf />
   );
 };
