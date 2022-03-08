@@ -1,8 +1,8 @@
 import {FC} from 'react';
-import {GetOwnPropertyDescriptor} from '../Object/GetOwnPropertyDescriptor/GetOwnPropertyDescriptor';
+import {GetOwnPropertyNames} from '../Object/GetOwnPropertyNames/GetOwnPropertyNames';
 
 export const Container: FC = () => {
   return (
-    <GetOwnPropertyDescriptor />
+    <GetOwnPropertyNames />
   );
 };
