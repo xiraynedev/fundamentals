@@ -1,8 +1,8 @@
 import {FC} from 'react';
-import {IsExtensible} from '../Object/IsExtensible/IsExtensible';
+import {IsFrozen} from '../Object/IsFrozen/IsFrozen';
 
 export const Container: FC = () => {
   return (
-    <IsExtensible />
+    <IsFrozen />
   );
 };
