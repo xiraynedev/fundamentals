@@ -1,8 +1,8 @@
 import {FC} from 'react';
-import {At} from '../String/At/At';
+import {Concat} from '../String/Concat/Concat';
 
 export const Container: FC = () => {
   return (
-    <At />
+    <Concat />
   );
 };
