@@ -14,7 +14,7 @@ export const At: FC = () => {
   };
 
   return (
-    <div className='flex flex-col gap-5 items-center mt-8'>
+    <div className='flex flex-col gap-5 items-center mt-8 mx-auto lg:max-w-2xl'>
       <p className='border p-4'>{words}</p>
       <p className='text-red-900'>Enter an index number below to locate the letter at a specific index.</p>
       <input
