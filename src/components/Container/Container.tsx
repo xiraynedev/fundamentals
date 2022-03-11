@@ -1,8 +1,8 @@
 import {FC} from 'react';
-import {IsFrozen} from '../Object/IsFrozen/IsFrozen';
+import {At} from '../String/At/At';
 
 export const Container: FC = () => {
   return (
-    <IsFrozen />
+    <At />
   );
 };
