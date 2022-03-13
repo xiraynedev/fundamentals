@@ -1,8 +1,8 @@
 import {FC} from 'react';
-import {Includes} from '../String/Includes/Includes';
+import {IndexOf} from '../String/IndexOf/IndexOf';
 
 export const Container: FC = () => {
   return (
-    <Includes />
+    <IndexOf />
   );
 };
