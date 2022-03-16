@@ -1,8 +1,8 @@
 import {FC} from 'react';
-import {IndexOf} from '../String/IndexOf/IndexOf';
+import {LastIndexOf} from '../String/LastIndexOf/LastIndexOf';
 
 export const Container: FC = () => {
   return (
-    <IndexOf />
+    <LastIndexOf />
   );
 };
