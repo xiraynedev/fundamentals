@@ -1,8 +1,8 @@
 import {FC} from 'react';
-import {LastIndexOf} from '../String/LastIndexOf/LastIndexOf';
+import {LocaleCompare} from '../String/LocaleCompare/LocaleCompare';
 
 export const Container: FC = () => {
   return (
-    <LastIndexOf />
+    <LocaleCompare />
   );
 };
