@@ -1,8 +1,8 @@
 import {FC} from 'react';
-import {LocaleCompare} from '../String/LocaleCompare/LocaleCompare';
+import {Match} from '../String/Match/Match';
 
 export const Container: FC = () => {
   return (
-    <LocaleCompare />
+    <Match />
   );
 };
