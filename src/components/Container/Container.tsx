@@ -1,8 +1,8 @@
 import {FC} from 'react';
-import {Split} from '../String/Split/Split';
+import {StartsWith} from '../String/StartsWith/StartsWith';
 
 export const Container: FC = () => {
   return (
-    <Split />
+    <StartsWith />
   );
 };
