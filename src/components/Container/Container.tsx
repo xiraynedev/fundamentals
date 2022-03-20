@@ -1,8 +1,8 @@
 import {FC} from 'react';
-import {Slice} from '../String/Slice/Slice';
+import {Split} from '../String/Split/Split';
 
 export const Container: FC = () => {
   return (
-    <Slice />
+    <Split />
   );
 };
