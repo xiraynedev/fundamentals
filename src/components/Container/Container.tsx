@@ -1,8 +1,8 @@
 import {FC} from 'react';
-import {StartsWith} from '../String/StartsWith/StartsWith';
+import {Substring} from '../String/Substring/Substring';
 
 export const Container: FC = () => {
   return (
-    <StartsWith />
+    <Substring />
   );
 };
