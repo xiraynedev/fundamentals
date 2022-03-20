@@ -1,8 +1,8 @@
 import {FC} from 'react';
-import {MatchAll} from '../String/MatchAll/MatchAll';
+import {Normalize} from '../String/Normalize/Normalize';
 
 export const Container: FC = () => {
   return (
-    <MatchAll />
+    <Normalize />
   );
 };
