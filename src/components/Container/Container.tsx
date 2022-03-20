@@ -1,8 +1,8 @@
 import {FC} from 'react';
-import {Raw} from '../String/Raw/Raw';
+import {Repeat} from '../String/Repeat/Repeat';
 
 export const Container: FC = () => {
   return (
-    <Raw />
+    <Repeat />
   );
 };
