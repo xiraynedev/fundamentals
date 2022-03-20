@@ -1,8 +1,8 @@
 import {FC} from 'react';
-import {Repeat} from '../String/Repeat/Repeat';
+import {Replace} from '../String/Replace/Replace';
 
 export const Container: FC = () => {
   return (
-    <Repeat />
+    <Replace />
   );
 };
