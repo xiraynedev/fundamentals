@@ -1,8 +1,8 @@
 import {FC} from 'react';
-import {Search} from '../String/Search/Search';
+import {Slice} from '../String/Slice/Slice';
 
 export const Container: FC = () => {
   return (
-    <Search />
+    <Slice />
   );
 };
