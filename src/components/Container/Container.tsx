@@ -1,8 +1,8 @@
 import {FC} from 'react';
-import {PadEnd} from '../String/PadEnd/PadEnd';
+import {Raw} from '../String/Raw/Raw';
 
 export const Container: FC = () => {
   return (
-    <PadEnd />
+    <Raw />
   );
 };
