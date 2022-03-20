@@ -1,8 +1,8 @@
 import {FC} from 'react';
-import {Replace} from '../String/Replace/Replace';
+import {Search} from '../String/Search/Search';
 
 export const Container: FC = () => {
   return (
-    <Replace />
+    <Search />
   );
 };
