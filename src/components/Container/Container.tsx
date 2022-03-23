@@ -1,8 +1,8 @@
 import {FC} from 'react';
-import {Substring} from '../String/Substring/Substring';
+import {BigInt} from '../BigInt/BigInt';
 
 export const Container: FC = () => {
   return (
-    <Substring />
+    <BigInt />
   );
 };
