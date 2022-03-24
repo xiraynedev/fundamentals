@@ -1,8 +1,8 @@
 import {FC} from 'react';
-import {ToLocaleString} from '../BigInt/ToLocaleString/ToLocaleString';
+import {ToBoolean} from '../Boolean/ToBoolean';
 
 export const Container: FC = () => {
   return (
-    <ToLocaleString />
+    <ToBoolean />
   );
 };
