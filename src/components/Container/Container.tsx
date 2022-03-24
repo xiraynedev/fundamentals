@@ -1,8 +1,8 @@
 import {FC} from 'react';
-import {AsIntN} from '../BigInt/AsIntN';
+import {ToLocaleString} from '../BigInt/ToLocaleString/ToLocaleString';
 
 export const Container: FC = () => {
   return (
-    <AsIntN />
+    <ToLocaleString />
   );
 };
