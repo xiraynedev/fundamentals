@@ -1,8 +1,8 @@
 import {FC} from 'react';
-import {BigInt} from '../BigInt/BigInt';
+import {AsIntN} from '../BigInt/AsIntN';
 
 export const Container: FC = () => {
   return (
-    <BigInt />
+    <AsIntN />
   );
 };

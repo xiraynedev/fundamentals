@@ -1,6 +1,6 @@
 import {FC} from 'react';
 
-export const BigInt: FC = () => {
+export const AsIntN: FC = () => {
 
   const prevMaxSafeInteger = 9007199254740991n;
 
