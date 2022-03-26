@@ -1,8 +1,8 @@
 import {FC} from 'react';
-import {ToBoolean} from '../Boolean/ToBoolean';
+import {Epsilon} from '../Number/Epsilon/Epsilon';
 
 export const Container: FC = () => {
   return (
-    <ToBoolean />
+    <Epsilon />
   );
 };
