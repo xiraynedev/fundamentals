@@ -1,8 +1,8 @@
 import {FC} from 'react';
-import {Epsilon} from '../Number/Epsilon/Epsilon';
+import {MaxSafeInteger} from '../Number/MaxSafeInteger/MaxSafeInteger';
 
 export const Container: FC = () => {
   return (
-    <Epsilon />
+    <MaxSafeInteger />
   );
 };
