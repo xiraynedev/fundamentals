@@ -1,8 +1,8 @@
 import {FC} from 'react';
-import {MinSafeInteger} from '../Number/MinSafeInteger/MinSafeInteger';
+import {MinValue} from '../Number/MinValue/MinValue';
 
 export const Container: FC = () => {
   return (
-    <MinSafeInteger />
+    <MinValue />
   );
 };
