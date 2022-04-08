@@ -1,8 +1,10 @@
-import {FC} from 'react';
-import {MinValue} from '../Number/MinValue/MinValue';
+import { FC } from 'react';
+import { NaN } from '../Number/NaN/NaN';
 
 export const Container: FC = () => {
   return (
-    <MinValue />
+    <div>
+      <NaN />
+    </div>
   );
 };
