@@ -1,10 +1,10 @@
 import { FC } from 'react';
-import { NaN } from '../Number/NaN/NaN';
+import { NegativeInfinity } from '../Number/NegativeInfinity/NegativeInfinity';
 
 export const Container: FC = () => {
   return (
     <div>
-      <NaN />
+      <NegativeInfinity />
     </div>
   );
 };
