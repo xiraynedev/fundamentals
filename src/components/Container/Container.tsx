@@ -1,10 +1,10 @@
 import { FC } from 'react';
-import { NegativeInfinity } from '../Number/NegativeInfinity/NegativeInfinity';
+import { Search } from '../Search/Search';
 
 export const Container: FC = () => {
   return (
     <div>
-      <NegativeInfinity />
+      <Search />
     </div>
   );
 };
