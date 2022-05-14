@@ -1,10 +1,10 @@
 import { FC } from 'react';
-import { Search } from '../Search/Search';
+import { Quiz } from '../Quiz/Quiz';
 
 export const Container: FC = () => {
   return (
     <div>
-      <Search />
+      <Quiz />
     </div>
   );
 };
