@@ -1,9 +1,8 @@
 import { FC, useState } from 'react';
 import { useFormik } from 'formik';
-import { v4 } from 'uuid';
 
 export const Quiz: FC = () => {
-  const [primitives, setPrimitives] = useState([
+  const [primitives] = useState([
     'big int',
     'boolean',
     'null',
