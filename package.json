@@ -4,12 +4,14 @@
   "description": "A demo project for brushing up on JavaScript fundamentals.",
   "scripts": {
     "dev": "webpack serve --config webpack.dev.js",
-    "build": "webpack --config webpack.prod.js"
+    "build": "webpack --config webpack.prod.js",
+    "test": "jest"
   },
   "author": "Raymond Cortes",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.17.5",
+    "@types/jest": "^27.5.1",
     "@types/react": "^17.0.43",
     "@types/react-dom": "^17.0.14",
     "@types/uuid": "^8.3.4",
