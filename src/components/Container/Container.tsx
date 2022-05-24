@@ -1,10 +1,10 @@
 import { FC } from 'react';
-import { ReverseString } from '../ReverseString/ReverseString';
+import { Palindrome } from '../Palindrome/Palindrome';
 
 export const Container: FC = () => {
   return (
     <div>
-      <ReverseString />
+    <Palindrome />
     </div>
   );
 };
