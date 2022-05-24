@@ -1,10 +1,10 @@
 import { FC } from 'react';
-import { Quiz } from '../Quiz/Quiz';
+import { ReverseString } from '../ReverseString/ReverseString';
 
 export const Container: FC = () => {
   return (
     <div>
-      <Quiz />
+      <ReverseString />
     </div>
   );
 };
