@@ -6,11 +6,7 @@ export const ReverseInt: FC = () => {
 
   const reversedNum = num.toString().split('').reverse().join('');
 
-  if (Math.sign(num) === -1) {
-    console.log(-Number.parseInt(reversedNum));
-  } else {
-    console.log(Number.parseInt(reversedNum));
-  }
+  console.log(Number.parseInt(reversedNum) * Math.sign(num))
 
   return <Stack></Stack>;
 };
