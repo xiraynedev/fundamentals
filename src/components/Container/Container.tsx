@@ -1,10 +1,10 @@
 import { FC } from 'react';
-import { ReverseInt } from '../ReverseInt/ReverseInt';
+import { ArrayChunk } from '../ArrayChunk/ArrayChunk';
 
 export const Container: FC = () => {
   return (
     <div>
-      <ReverseInt />
+    <ArrayChunk />
     </div>
   );
 };
