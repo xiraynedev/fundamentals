@@ -11,6 +11,11 @@ export const Search: FC = () => {
   const [displaySkills, setDisplaySkills] = useState<string[]>([]);
   const [userInput, setUserInput] = useState('');
 
+  const greeting = () => {
+
+  }
+  
+
   const handleChange = (event: FormEvent<HTMLInputElement>) => {
     setUserInput(event.currentTarget.value.toLowerCase());
   };
